@@ -1,1726 +1,2737 @@
 
-<!-- Load jQuery and DataTables -->
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mitchell High School Alumni Directory</title>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .dataTables_wrapper {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
 
-<!-- Alumni Table -->
+<h1>Directory of Mitchell High School Alumni<br><small>Mitchell, Indiana – Classes of 1923–1930</small></h1>
+
 <div style="overflow-x:auto">
 <table border="1" class="dataframe display" id="alumniTable">
   <thead>
     <tr style="text-align: right;">
-      <th>Full Name</th>
+      <th>Last Name</th>
+      <th>First Name</th>
+      <th>Middle Initial</th>
       <th>Year Graduated</th>
-      <th>Office (if listed)</th>
-      <th>Nickname (if listed)</th>
-      <th>Other Notes</th>
+      <th>Office</th>
+      <th>Nickname</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Glen Beasley</td>
+      <td>Beasley</td>
+      <td>Glen</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Tarzan</td>
       <td></td>
     </tr>
     <tr>
-      <td>Darelton Berry</td>
+      <td>Berry</td>
+      <td>Darelton</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Bud</td>
       <td></td>
     </tr>
     <tr>
-      <td>Irene Burton</td>
+      <td>Burton</td>
+      <td>Irene</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Dix</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Coleman</td>
+      <td>Coleman</td>
+      <td>John</td>
+      <td></td>
       <td>1923</td>
       <td>President</td>
       <td>Johnny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Marie Conley</td>
+      <td>Conley</td>
+      <td>Marie</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Midget</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mildred A. Dalton</td>
+      <td>Dalton</td>
+      <td>Mildred</td>
+      <td>A.</td>
       <td>1923</td>
       <td></td>
       <td>Micky</td>
       <td></td>
     </tr>
     <tr>
-      <td>May Davis</td>
+      <td>Davis</td>
+      <td>May</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Wicky</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bertha M. Eastwood</td>
+      <td>Eastwood</td>
+      <td>Bertha</td>
+      <td>M.</td>
       <td>1923</td>
       <td></td>
       <td>Sis</td>
       <td></td>
     </tr>
     <tr>
-      <td>Walter Hall</td>
+      <td>Hall</td>
+      <td>Walter</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Peggy</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Hamer</td>
+      <td>Hamer</td>
+      <td>John</td>
+      <td></td>
       <td>1923</td>
       <td>Treasurer</td>
       <td>Nellie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Willie Himebaugh</td>
+      <td>Himebaugh</td>
+      <td>Willie</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Giggles</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wendell Holmes</td>
+      <td>Holmes</td>
+      <td>Wendell</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Bill</td>
       <td></td>
     </tr>
     <tr>
-      <td>Sarah Kimberlin</td>
+      <td>Kimberlin</td>
+      <td>Sarah</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Sally</td>
       <td></td>
     </tr>
     <tr>
-      <td>Paul Lang</td>
+      <td>Lang</td>
+      <td>Paul</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
-      <td>Eva Meehan</td>
+      <td>Meehan</td>
+      <td>Eva</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Eva Jane</td>
       <td></td>
     </tr>
     <tr>
-      <td>Oline Neidiffer</td>
+      <td>Neidiffer</td>
+      <td>Oline</td>
+      <td></td>
       <td>1923</td>
       <td>Vice President</td>
       <td>Shortie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Sylvia Pruett</td>
+      <td>Pruett</td>
+      <td>Sylvia</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Smiles</td>
       <td></td>
     </tr>
     <tr>
-      <td>Dottie Pruett</td>
+      <td>Pruett</td>
+      <td>Dottie</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Dot</td>
       <td></td>
     </tr>
     <tr>
-      <td>Clarine Sanders</td>
+      <td>Sanders</td>
+      <td>Clarine</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Pollyanna</td>
       <td></td>
     </tr>
     <tr>
-      <td>Louise Shea</td>
+      <td>Shea</td>
+      <td>Louise</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Pat</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bessie Tolbert</td>
+      <td>Tolbert</td>
+      <td>Bessie</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Bess</td>
       <td></td>
     </tr>
     <tr>
-      <td>Catherine Wilkinson</td>
+      <td>Wilkinson</td>
+      <td>Catherine</td>
+      <td></td>
       <td>1923</td>
       <td>Secretary</td>
       <td>Bobbie</td>
       <td>First name also spelled as Catharine in the yearbook</td>
     </tr>
     <tr>
-      <td>Tom Willard</td>
+      <td>Willard</td>
+      <td>Tom</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Eagle Beak</td>
       <td></td>
     </tr>
     <tr>
-      <td>Jewel Wilson</td>
+      <td>Wilson</td>
+      <td>Jewel</td>
+      <td></td>
       <td>1923</td>
       <td></td>
       <td>Kitten</td>
       <td></td>
     </tr>
     <tr>
-      <td>William Wyman Barnes</td>
+      <td>Barnes</td>
+      <td>William</td>
+      <td>Wyman</td>
       <td>1924</td>
       <td></td>
       <td>Babe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bessie Isis Beasley</td>
+      <td>Beasley</td>
+      <td>Bessie</td>
+      <td>Isis</td>
       <td>1924</td>
       <td></td>
       <td>Kidder</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bruce Murphy Boyd</td>
+      <td>Boyd</td>
+      <td>Bruce</td>
+      <td>Murphy</td>
       <td>1924</td>
       <td></td>
       <td>Runt</td>
       <td></td>
     </tr>
     <tr>
-      <td>Frank Lewis Braman</td>
+      <td>Braman</td>
+      <td>Frank</td>
+      <td>Lewis</td>
       <td>1924</td>
       <td>Treasurer</td>
       <td>Cy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wheeler Spencer Burton</td>
+      <td>Burton</td>
+      <td>Wheeler</td>
+      <td>Spencer</td>
       <td>1924</td>
       <td></td>
       <td>Doc</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Elizabeth Carpenter</td>
+      <td>Carpenter</td>
+      <td>Mary</td>
+      <td>Elizabeth</td>
       <td>1924</td>
       <td></td>
       <td>Betty</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bertha Bernice Chastain</td>
+      <td>Chastain</td>
+      <td>Bertha</td>
+      <td>Bernice</td>
       <td>1924</td>
       <td></td>
       <td>Bertie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leona Maxine Chess</td>
+      <td>Chess</td>
+      <td>Leona</td>
+      <td>Maxine</td>
       <td>1924</td>
       <td></td>
       <td>Max</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lee Burns Collier</td>
+      <td>Collier</td>
+      <td>Lee</td>
+      <td>Burns</td>
       <td>1924</td>
       <td></td>
       <td>Collie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Donovan Jefferson Conkey</td>
+      <td>Conkey</td>
+      <td>Donovan</td>
+      <td>Jefferson</td>
       <td>1924</td>
       <td></td>
       <td>Conk</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Leland Cornwell</td>
+      <td>Cornwell</td>
+      <td>John</td>
+      <td>Leland</td>
       <td>1924</td>
       <td>Vice President</td>
       <td>Cazeque</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret Louise Davis</td>
+      <td>Davis</td>
+      <td>Margaret</td>
+      <td>Louise</td>
       <td>1924</td>
       <td></td>
       <td>Giggles</td>
       <td></td>
     </tr>
     <tr>
-      <td>Jesse Isabelle Durment</td>
+      <td>Durment</td>
+      <td>Jesse</td>
+      <td>Isabelle</td>
       <td>1924</td>
       <td></td>
       <td>Isie</td>
       <td></td>
     </tr>
     <tr>
-      <td>James Wesley Erwin</td>
+      <td>Erwin</td>
+      <td>James</td>
+      <td>Wesley</td>
       <td>1924</td>
       <td></td>
       <td>Marcus</td>
       <td></td>
     </tr>
     <tr>
-      <td>Joseph Lingle Fears</td>
+      <td>Fears</td>
+      <td>Joseph</td>
+      <td>Lingle</td>
       <td>1924</td>
       <td></td>
       <td>Jingle</td>
       <td></td>
     </tr>
     <tr>
-      <td>Harris Asa Gibbons</td>
+      <td>Gibbons</td>
+      <td>Harris</td>
+      <td>Asa</td>
       <td>1924</td>
       <td></td>
       <td>Asa</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Magdalene Hancock</td>
+      <td>Hancock</td>
+      <td>Mary</td>
+      <td>Magdalene</td>
       <td>1924</td>
       <td></td>
       <td>Maggie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Eithel Mae Hughes</td>
+      <td>Hughes</td>
+      <td>Eithel</td>
+      <td>Mae</td>
       <td>1924</td>
       <td></td>
       <td>Peggy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Martha Genevieve Jacobs</td>
+      <td>Jacobs</td>
+      <td>Martha</td>
+      <td>Genevieve</td>
       <td>1924</td>
       <td></td>
       <td>Marsy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Effie Pauline Johnson</td>
+      <td>Johnson</td>
+      <td>Effie</td>
+      <td>Pauline</td>
       <td>1924</td>
       <td></td>
       <td>Polly</td>
       <td></td>
     </tr>
     <tr>
-      <td>Christena Nell Lewis</td>
+      <td>Lewis</td>
+      <td>Christena</td>
+      <td>Nell</td>
       <td>1924</td>
       <td></td>
       <td>Christy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hazel Belle Marshall</td>
+      <td>Marshall</td>
+      <td>Hazel</td>
+      <td>Belle</td>
       <td>1924</td>
       <td></td>
       <td>Belle</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Paul Morarity</td>
+      <td>Morarity</td>
+      <td>John</td>
+      <td>Paul</td>
       <td>1924</td>
       <td></td>
       <td>Majority</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Esther Morgan</td>
+      <td>Morgan</td>
+      <td>Mary</td>
+      <td>Esther</td>
       <td>1924</td>
       <td></td>
       <td>Snow Birdie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ruth Chapple Mount</td>
+      <td>Mount</td>
+      <td>Ruth</td>
+      <td>Chapple</td>
       <td>1924</td>
       <td>Secretary</td>
       <td>Fat</td>
       <td></td>
     </tr>
     <tr>
-      <td>Gladys Mae Pennington</td>
+      <td>Pennington</td>
+      <td>Gladys</td>
+      <td>Mae</td>
       <td>1924</td>
       <td></td>
       <td>Gaddy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Helen Beatrice Sanders</td>
+      <td>Sanders</td>
+      <td>Helen</td>
+      <td>Beatrice</td>
       <td>1924</td>
       <td></td>
       <td>Ma</td>
       <td></td>
     </tr>
     <tr>
-      <td>Edith Lee Sims</td>
+      <td>Sims</td>
+      <td>Edith</td>
+      <td>Lee</td>
       <td>1924</td>
       <td></td>
       <td>Edie Lee</td>
       <td></td>
     </tr>
     <tr>
-      <td>Orin Smith</td>
+      <td>Smith</td>
+      <td>Orin</td>
+      <td></td>
       <td>1924</td>
       <td></td>
       <td>Aurelius</td>
       <td></td>
     </tr>
     <tr>
-      <td>William Arthur Sylvester</td>
+      <td>Sylvester</td>
+      <td>William</td>
+      <td>Arthur</td>
       <td>1924</td>
       <td>President</td>
       <td>Little Willie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lavinia Kathryn Tucker</td>
+      <td>Tucker</td>
+      <td>Lavinia</td>
+      <td>Kathryn</td>
       <td>1924</td>
       <td></td>
       <td>La-Vin-ia</td>
       <td></td>
     </tr>
     <tr>
-      <td>Helen Ruth Wilkinson</td>
+      <td>Wilkinson</td>
+      <td>Helen</td>
+      <td>Ruth</td>
       <td>1924</td>
       <td></td>
       <td>Shoulty</td>
       <td></td>
     </tr>
     <tr>
-      <td>Janice Christine Williams</td>
+      <td>Williams</td>
+      <td>Janice</td>
+      <td>Christine</td>
       <td>1924</td>
       <td></td>
       <td>Granny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mabel Ball</td>
+      <td>Ball</td>
+      <td>Mabel</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Tabe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lorena Bass</td>
+      <td>Bass</td>
+      <td>Lorena</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Sis</td>
       <td></td>
     </tr>
     <tr>
-      <td>George Bishop</td>
+      <td>Bishop</td>
+      <td>George</td>
+      <td></td>
       <td>1925</td>
       <td>Treasurer</td>
       <td>Bish</td>
       <td></td>
     </tr>
     <tr>
-      <td>William Brooks</td>
+      <td>Brooks</td>
+      <td>William</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Bill</td>
       <td></td>
     </tr>
     <tr>
-      <td>Virginia Burton</td>
+      <td>Burton</td>
+      <td>Virginia</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Ginger</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary E. Campbell</td>
+      <td>Campbell</td>
+      <td>Mary</td>
+      <td>E.</td>
       <td>1925</td>
       <td>Secretary</td>
       <td>Mary Lib</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Elizabeth Chastain</td>
+      <td>Chastain</td>
+      <td>Mary</td>
+      <td>Elizabeth</td>
       <td>1925</td>
       <td></td>
       <td>Babe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Guy Collier</td>
+      <td>Collier</td>
+      <td>Guy</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Lone Wolf</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Susan Comingore</td>
+      <td>Comingore</td>
+      <td>Mary</td>
+      <td>Susan</td>
       <td>1925</td>
       <td></td>
       <td>Susie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Raymond Dodd</td>
+      <td>Dodd</td>
+      <td>Raymond</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Ray</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wayne Edwards</td>
+      <td>Edwards</td>
+      <td>Wayne</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Doc</td>
       <td></td>
     </tr>
     <tr>
-      <td>Gladys Edwards</td>
+      <td>Edwards</td>
+      <td>Gladys</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Pug</td>
       <td></td>
     </tr>
     <tr>
-      <td>Helen Priscilla Hamer</td>
+      <td>Hamer</td>
+      <td>Helen</td>
+      <td>Priscilla</td>
       <td>1925</td>
       <td></td>
       <td>Per</td>
       <td></td>
     </tr>
     <tr>
-      <td>Russell Hardman</td>
+      <td>Hardman</td>
+      <td>Russell</td>
+      <td></td>
       <td>1925</td>
       <td>Vice President</td>
       <td>Russ</td>
       <td></td>
     </tr>
     <tr>
-      <td>Avis Isom</td>
+      <td>Isom</td>
+      <td>Avis</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Avis</td>
       <td></td>
     </tr>
     <tr>
-      <td>Charles N. Lagle</td>
+      <td>Lagle</td>
+      <td>Charles</td>
+      <td>N.</td>
       <td>1925</td>
       <td></td>
       <td>Newt</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ivis Magner</td>
+      <td>Magner</td>
+      <td>Ivis</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Magna</td>
       <td></td>
     </tr>
     <tr>
-      <td>Velma Mark</td>
+      <td>Mark</td>
+      <td>Velma</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Louie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Benjamin Taylor Martin</td>
+      <td>Martin</td>
+      <td>Benjamin</td>
+      <td>Taylor</td>
       <td>1925</td>
       <td></td>
       <td>Benny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Minnie Naugle</td>
+      <td>Naugle</td>
+      <td>Minnie</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>June Bug</td>
       <td></td>
     </tr>
     <tr>
-      <td>Morton Newman</td>
+      <td>Newman</td>
+      <td>Morton</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Spon</td>
       <td></td>
     </tr>
     <tr>
-      <td>Paul Nolan</td>
+      <td>Nolan</td>
+      <td>Paul</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
-      <td>Olive I. Powell</td>
+      <td>Powell</td>
+      <td>Olive</td>
+      <td>I.</td>
       <td>1925</td>
       <td></td>
       <td>Ollie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Doris Allegre Railing</td>
+      <td>Railing</td>
+      <td>Doris</td>
+      <td>Allegre</td>
       <td>1925</td>
       <td></td>
       <td>Doris</td>
       <td></td>
     </tr>
     <tr>
-      <td>Elmo Sylvester</td>
+      <td>Sylvester</td>
+      <td>Elmo</td>
+      <td></td>
       <td>1925</td>
       <td>President</td>
       <td>Elmo</td>
       <td></td>
     </tr>
     <tr>
-      <td>Grace E. Tilford</td>
+      <td>Tilford</td>
+      <td>Grace</td>
+      <td>E.</td>
       <td>1925</td>
       <td></td>
       <td>Lizzie</td>
       <td>African American</td>
     </tr>
     <tr>
-      <td>Catherine Weaver</td>
+      <td>Weaver</td>
+      <td>Catherine</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Kay</td>
       <td></td>
     </tr>
     <tr>
-      <td>Howard Westfall</td>
+      <td>Westfall</td>
+      <td>Howard</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Cleve</td>
       <td></td>
     </tr>
     <tr>
-      <td>Louise Wildman</td>
+      <td>Wildman</td>
+      <td>Louise</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Babe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Carl Williams</td>
+      <td>Williams</td>
+      <td>Carl</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Red</td>
       <td></td>
     </tr>
     <tr>
-      <td>Opal Wilson</td>
+      <td>Wilson</td>
+      <td>Opal</td>
+      <td></td>
       <td>1925</td>
       <td></td>
       <td>Slim</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret Catherine Wycoff</td>
+      <td>Wycoff</td>
+      <td>Margaret</td>
+      <td>Catherine</td>
       <td>1925</td>
       <td></td>
       <td>Marge</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Ball</td>
+      <td>Ball</td>
+      <td>Mary</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Scina</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lewis H. Beasley</td>
+      <td>Beasley</td>
+      <td>Lewis</td>
+      <td>H.</td>
       <td>1926</td>
       <td></td>
       <td>Capo</td>
       <td></td>
     </tr>
     <tr>
-      <td>Augustus Beasley</td>
+      <td>Beasley</td>
+      <td>Augustus</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Gus</td>
       <td></td>
     </tr>
     <tr>
-      <td>Fred W. Brinkworth</td>
+      <td>Brinkworth</td>
+      <td>Fred</td>
+      <td>W.</td>
       <td>1926</td>
       <td></td>
       <td>Lefty</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leland Bryant</td>
+      <td>Bryant</td>
+      <td>Leland</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td></td>
       <td>Noted that he moved from Greentown too late to get his picture in the yearbook</td>
     </tr>
     <tr>
-      <td>J. Deisher Burton</td>
+      <td>Burton</td>
+      <td>J.</td>
+      <td>Deisher</td>
       <td>1926</td>
       <td></td>
       <td>Jake</td>
       <td></td>
     </tr>
     <tr>
-      <td>Clentonia Coleman</td>
+      <td>Coleman</td>
+      <td>Clentonia</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Tony</td>
       <td></td>
     </tr>
     <tr>
-      <td>Opal Conley</td>
+      <td>Conley</td>
+      <td>Opal</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Sheik</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Cutsinger</td>
+      <td>Cutsinger</td>
+      <td>Mary</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Mac</td>
       <td></td>
     </tr>
     <tr>
-      <td>Clarence Duncan</td>
+      <td>Duncan</td>
+      <td>Clarence</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Clarenz</td>
       <td>African American</td>
     </tr>
     <tr>
-      <td>Edgar James Eckensberger</td>
+      <td>Eckensberger</td>
+      <td>Edgar</td>
+      <td>James</td>
       <td>1926</td>
       <td>President</td>
       <td>Eckie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ernest Edwards</td>
+      <td>Edwards</td>
+      <td>Ernest</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Chef</td>
       <td></td>
     </tr>
     <tr>
-      <td>Otha E. Fletcher</td>
+      <td>Fletcher</td>
+      <td>Otha</td>
+      <td>E.</td>
       <td>1926</td>
       <td></td>
       <td>Ikie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Leon O. Green</td>
+      <td>Green</td>
+      <td>Leon</td>
+      <td>O.</td>
       <td>1926</td>
       <td></td>
       <td>Tommy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Grace Ruby Greer</td>
+      <td>Greer</td>
+      <td>Grace</td>
+      <td>Ruby</td>
       <td>1926</td>
       <td></td>
       <td>Chick</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lysle Hackler</td>
+      <td>Hackler</td>
+      <td>Lysle</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Hack</td>
       <td></td>
     </tr>
     <tr>
-      <td>John D. Hardman</td>
+      <td>Hardman</td>
+      <td>John</td>
+      <td>D.</td>
       <td>1926</td>
       <td>Treasurer</td>
       <td>Abe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ruth Harrison</td>
+      <td>Harrison</td>
+      <td>Ruth</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Rufus</td>
       <td></td>
     </tr>
     <tr>
-      <td>W. Rex Isom</td>
+      <td>Isom</td>
+      <td>W.</td>
+      <td>Rex</td>
       <td>1926</td>
       <td></td>
       <td>O.K.</td>
       <td></td>
     </tr>
     <tr>
-      <td>Evangeline Lewis</td>
+      <td>Lewis</td>
+      <td>Evangeline</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Von</td>
       <td></td>
     </tr>
     <tr>
-      <td>Burton Lewis</td>
+      <td>Lewis</td>
+      <td>Burton</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Cy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ruth Augusta Mather</td>
+      <td>Mather</td>
+      <td>Ruth</td>
+      <td>Augusta</td>
       <td>1926</td>
       <td></td>
       <td>Ruthie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Morris Mayden</td>
+      <td>Mayden</td>
+      <td>Morris</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Cappie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hugh Franklin Pickens</td>
+      <td>Pickens</td>
+      <td>Hugh</td>
+      <td>Franklin</td>
       <td>1926</td>
       <td></td>
       <td>Pick</td>
       <td></td>
     </tr>
     <tr>
-      <td>Edgar Porter</td>
+      <td>Porter</td>
+      <td>Edgar</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Mutt</td>
       <td></td>
     </tr>
     <tr>
-      <td>Arthur Roberson</td>
+      <td>Roberson</td>
+      <td>Arthur</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Bosco</td>
       <td></td>
     </tr>
     <tr>
-      <td>Helen Rodarmel</td>
+      <td>Rodarmel</td>
+      <td>Helen</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Kutz</td>
       <td></td>
     </tr>
     <tr>
-      <td>Alice F. Rodarmel</td>
+      <td>Rodarmel</td>
+      <td>Alice</td>
+      <td>F.</td>
       <td>1926</td>
       <td></td>
       <td>Crip</td>
       <td></td>
     </tr>
     <tr>
-      <td>James R. Root</td>
+      <td>Root</td>
+      <td>James</td>
+      <td>R.</td>
       <td>1926</td>
       <td></td>
       <td>Jim</td>
       <td></td>
     </tr>
     <tr>
-      <td>John B. Sims</td>
+      <td>Sims</td>
+      <td>John</td>
+      <td>B.</td>
       <td>1926</td>
       <td>Vice President</td>
       <td>Junior</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bertha Smith</td>
+      <td>Smith</td>
+      <td>Bertha</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Birdie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Stanley E. Smith</td>
+      <td>Smith</td>
+      <td>Stanley</td>
+      <td>E.</td>
       <td>1926</td>
       <td></td>
       <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
-      <td>Burl A. Smith</td>
+      <td>Smith</td>
+      <td>Burl</td>
+      <td>A.</td>
       <td>1926</td>
       <td></td>
       <td>Smythie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nova Taylor</td>
+      <td>Taylor</td>
+      <td>Nova</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Sunshine</td>
       <td></td>
     </tr>
     <tr>
-      <td>Martha Hilda Tranter</td>
+      <td>Tranter</td>
+      <td>Martha</td>
+      <td>Hilda</td>
       <td>1926</td>
       <td></td>
       <td>Dimples</td>
       <td></td>
     </tr>
     <tr>
-      <td>Juanita Weidner</td>
+      <td>Weidner</td>
+      <td>Juanita</td>
+      <td></td>
       <td>1926</td>
       <td>Secretary</td>
       <td>Nita</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mary Ellen White</td>
+      <td>White</td>
+      <td>Mary</td>
+      <td>Ellen</td>
       <td>1926</td>
       <td></td>
       <td>Tiny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Kathryn Willard</td>
+      <td>Willard</td>
+      <td>Kathryn</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Katty</td>
       <td></td>
     </tr>
     <tr>
-      <td>Helen Willard</td>
+      <td>Willard</td>
+      <td>Helen</td>
+      <td></td>
       <td>1926</td>
       <td></td>
       <td>Short</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Allspaw</td>
+      <td>Allspaw</td>
+      <td>John</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Johnnie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Charles Anderson</td>
+      <td>Anderson</td>
+      <td>Charles</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Charlie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Robert Bass</td>
+      <td>Bass</td>
+      <td>Robert</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Bob</td>
       <td></td>
     </tr>
     <tr>
-      <td>Frances Burton</td>
+      <td>Burton</td>
+      <td>Frances</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Elbert Chastain</td>
+      <td>Chastain</td>
+      <td>Elbert</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Ebb</td>
       <td></td>
     </tr>
     <tr>
-      <td>Austin Chastain</td>
+      <td>Chastain</td>
+      <td>Austin</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Twisty</td>
       <td></td>
     </tr>
     <tr>
-      <td>George Cheek</td>
+      <td>Cheek</td>
+      <td>George</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Porgie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Richard Hall</td>
+      <td>Hall</td>
+      <td>Richard</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Dick</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lucille Haverly</td>
+      <td>Haverly</td>
+      <td>Lucille</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Cupid</td>
       <td></td>
     </tr>
     <tr>
-      <td>Rutth Lagle</td>
+      <td>Lagle</td>
+      <td>Rutth</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Silas</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bessie Lang</td>
+      <td>Lang</td>
+      <td>Bessie</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
-      <td>Joseph Laughlin</td>
+      <td>Laughlin</td>
+      <td>Joseph</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Jody</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lavern Lewis</td>
+      <td>Lewis</td>
+      <td>Lavern</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Billy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Joseph Love</td>
+      <td>Love</td>
+      <td>Joseph</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Joe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bertha Mann</td>
+      <td>Mann</td>
+      <td>Bertha</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Bert</td>
       <td></td>
     </tr>
     <tr>
-      <td>May McCullough</td>
+      <td>McCullough</td>
+      <td>May</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Hursh</td>
       <td></td>
     </tr>
     <tr>
-      <td>Gertrude Morris</td>
+      <td>Morris</td>
+      <td>Gertrude</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Trudie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lavon Neidiffer</td>
+      <td>Neidiffer</td>
+      <td>Lavon</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Abie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Doyle Neidiffer</td>
+      <td>Neidiffer</td>
+      <td>Doyle</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Puffy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hazell Powell</td>
+      <td>Powell</td>
+      <td>Hazell</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Kathryn Railing</td>
+      <td>Railing</td>
+      <td>Kathryn</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Katie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Paul Root</td>
+      <td>Root</td>
+      <td>Paul</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Punk</td>
       <td></td>
     </tr>
     <tr>
-      <td>Walter Sherwood</td>
+      <td>Sherwood</td>
+      <td>Walter</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Walt</td>
       <td></td>
     </tr>
     <tr>
-      <td>Alda Smith</td>
+      <td>Smith</td>
+      <td>Alda</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Emery Smith</td>
+      <td>Smith</td>
+      <td>Emery</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Kathryn Stevens</td>
+      <td>Stevens</td>
+      <td>Kathryn</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Katty</td>
       <td></td>
     </tr>
     <tr>
-      <td>Essie Taylor</td>
+      <td>Taylor</td>
+      <td>Essie</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Agan Terrell</td>
+      <td>Terrell</td>
+      <td>Agan</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Bloat</td>
       <td></td>
     </tr>
     <tr>
-      <td>Martha Terrell</td>
+      <td>Terrell</td>
+      <td>Martha</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Tommie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Estelle Todd</td>
+      <td>Todd</td>
+      <td>Estelle</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Vera Wood</td>
+      <td>Wood</td>
+      <td>Vera</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td>Woodie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Alice Wycoff</td>
+      <td>Wycoff</td>
+      <td>Alice</td>
+      <td></td>
       <td>1927</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Sylvia Irene Allegre</td>
+      <td>Allegre</td>
+      <td>Sylvia</td>
+      <td>Irene</td>
       <td>1928</td>
       <td></td>
       <td>Shivie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Durward Boone</td>
+      <td>Boone</td>
+      <td>Durward</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Pluto</td>
       <td></td>
     </tr>
     <tr>
-      <td>Kathryn Burton</td>
+      <td>Burton</td>
+      <td>Kathryn</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Dimples</td>
       <td></td>
     </tr>
     <tr>
-      <td>Eulah Carpenter</td>
+      <td>Carpenter</td>
+      <td>Eulah</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Dute</td>
       <td></td>
     </tr>
     <tr>
-      <td>Warfield Coleman</td>
+      <td>Coleman</td>
+      <td>Warfield</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>War</td>
       <td></td>
     </tr>
     <tr>
-      <td>William Harold Coleman</td>
+      <td>Coleman</td>
+      <td>William</td>
+      <td>Harold</td>
       <td>1928</td>
       <td></td>
       <td>Noah</td>
       <td>It's stated that Harold's graduation wasn't known until it was too late to get a picture.</td>
     </tr>
     <tr>
-      <td>Pansy Conley</td>
+      <td>Conley</td>
+      <td>Pansy</td>
+      <td></td>
       <td>1928</td>
       <td>Secretary</td>
       <td>Pat</td>
       <td></td>
     </tr>
     <tr>
-      <td>Clyde Davis</td>
+      <td>Davis</td>
+      <td>Clyde</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Terry</td>
       <td></td>
     </tr>
     <tr>
-      <td>J. Franklin Eckensberger</td>
+      <td>Eckensberger</td>
+      <td>J.</td>
+      <td>Franklin</td>
       <td>1928</td>
       <td></td>
       <td>Hank</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lillian Elgin</td>
+      <td>Elgin</td>
+      <td>Lillian</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td></td>
       <td>Died December 12, 1927 (Listed in memoriam)</td>
     </tr>
     <tr>
-      <td>Emmit Gerkin</td>
+      <td>Gerkin</td>
+      <td>Emmit</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Flying</td>
       <td></td>
     </tr>
     <tr>
-      <td>Carl Harris</td>
+      <td>Harris</td>
+      <td>Carl</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Chick</td>
       <td></td>
     </tr>
     <tr>
-      <td>Stanley Henderson</td>
+      <td>Henderson</td>
+      <td>Stanley</td>
+      <td></td>
       <td>1928</td>
       <td>Vice President</td>
       <td>Bub</td>
       <td></td>
     </tr>
     <tr>
-      <td>Edward A. Isom</td>
+      <td>Isom</td>
+      <td>Edward</td>
+      <td>A.</td>
       <td>1928</td>
       <td></td>
       <td>Ed</td>
       <td></td>
     </tr>
     <tr>
-      <td>Gwendolyn Landreth</td>
+      <td>Landreth</td>
+      <td>Gwendolyn</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Shuskie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bertha Lee</td>
+      <td>Lee</td>
+      <td>Bertha</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Bivie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nina Lewis</td>
+      <td>Lewis</td>
+      <td>Nina</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Giggles</td>
       <td></td>
     </tr>
     <tr>
-      <td>Kathryn Martin</td>
+      <td>Martin</td>
+      <td>Kathryn</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Kaddy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Fay McCullough</td>
+      <td>McCullough</td>
+      <td>Fay</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Cuddles</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lea B. McIntire</td>
+      <td>McIntire</td>
+      <td>Lea</td>
+      <td>B.</td>
       <td>1928</td>
       <td></td>
       <td>Mack</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lillian M. McIntire</td>
+      <td>McIntire</td>
+      <td>Lillian</td>
+      <td>M.</td>
       <td>1928</td>
       <td></td>
       <td>Henry</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret Morris</td>
+      <td>Morris</td>
+      <td>Margaret</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Peggy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret Oldham</td>
+      <td>Oldham</td>
+      <td>Margaret</td>
+      <td></td>
       <td>1928</td>
       <td>Treasurer</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Eulah Pennington</td>
+      <td>Pennington</td>
+      <td>Eulah</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Eudie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lawrence Porter</td>
+      <td>Porter</td>
+      <td>Lawrence</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Max Railing</td>
+      <td>Railing</td>
+      <td>Max</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Mac</td>
       <td></td>
     </tr>
     <tr>
-      <td>Clayton Ramey</td>
+      <td>Ramey</td>
+      <td>Clayton</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Metzie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nimrod Ramey</td>
+      <td>Ramey</td>
+      <td>Nimrod</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Ick</td>
       <td></td>
     </tr>
     <tr>
-      <td>Harold Robertson</td>
+      <td>Robertson</td>
+      <td>Harold</td>
+      <td></td>
       <td>1928</td>
       <td>President</td>
       <td>Ears</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hisle Sheeks</td>
+      <td>Sheeks</td>
+      <td>Hisle</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Jessie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Vellma Smith</td>
+      <td>Smith</td>
+      <td>Vellma</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Tobe</td>
       <td></td>
     </tr>
     <tr>
-      <td>Oscar Smith</td>
+      <td>Smith</td>
+      <td>Oscar</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Ock</td>
       <td></td>
     </tr>
     <tr>
-      <td>Orland Stroud</td>
+      <td>Stroud</td>
+      <td>Orland</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td></td>
       <td>Died June 30, 1925 (Listed in memoriam)</td>
     </tr>
     <tr>
-      <td>Marie Sutton</td>
+      <td>Sutton</td>
+      <td>Marie</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Rea</td>
       <td></td>
     </tr>
     <tr>
-      <td>Myrtie Taylor</td>
+      <td>Taylor</td>
+      <td>Myrtie</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Billy Boy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Pauline Tirey</td>
+      <td>Tirey</td>
+      <td>Pauline</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Polly</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ethel Turmail</td>
+      <td>Turmail</td>
+      <td>Ethel</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Turmy</td>
       <td></td>
     </tr>
     <tr>
-      <td>Marjorie Vawter</td>
+      <td>Vawter</td>
+      <td>Marjorie</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Margie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Goldia White</td>
+      <td>White</td>
+      <td>Goldia</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Cotton</td>
       <td></td>
     </tr>
     <tr>
-      <td>Harriet J. Wilkinson</td>
+      <td>Wilkinson</td>
+      <td>Harriet</td>
+      <td>J.</td>
       <td>1928</td>
       <td></td>
       <td>Mike</td>
       <td></td>
     </tr>
     <tr>
-      <td>John Williams</td>
+      <td>Williams</td>
+      <td>John</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Johnny</td>
       <td></td>
     </tr>
     <tr>
-      <td>William Williams</td>
+      <td>Williams</td>
+      <td>William</td>
+      <td></td>
       <td>1928</td>
       <td></td>
       <td>Bill</td>
       <td></td>
     </tr>
     <tr>
-      <td>Elma Waunieta Allegre</td>
+      <td>Allegre</td>
+      <td>Elma</td>
+      <td>Waunieta</td>
       <td>1929</td>
       <td></td>
       <td>Booze</td>
       <td></td>
     </tr>
     <tr>
-      <td>Doris Lucille Allspaw</td>
+      <td>Allspaw</td>
+      <td>Doris</td>
+      <td>Lucille</td>
       <td>1929</td>
       <td></td>
       <td>Dot</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ruth Ball</td>
+      <td>Ball</td>
+      <td>Ruth</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Jackie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Walter Beasley</td>
+      <td>Beasley</td>
+      <td>Walter</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>It's noted that he failed to graduate.</td>
     </tr>
     <tr>
-      <td>Zack D. Brooks</td>
+      <td>Brooks</td>
+      <td>Zack</td>
+      <td>D.</td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Florence Ellen Bunger</td>
+      <td>Bunger</td>
+      <td>Florence</td>
+      <td>Ellen</td>
       <td>1929</td>
       <td></td>
       <td>Bunger</td>
       <td></td>
     </tr>
     <tr>
-      <td>Doris Burton</td>
+      <td>Burton</td>
+      <td>Doris</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>It's noted that she failed to graduate.</td>
     </tr>
     <tr>
-      <td>Paul Burton</td>
+      <td>Burton</td>
+      <td>Paul</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Osborne Chastain</td>
+      <td>Chastain</td>
+      <td>Osborne</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Obie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lawrence Marion Day</td>
+      <td>Day</td>
+      <td>Lawrence</td>
+      <td>Marion</td>
       <td>1929</td>
       <td></td>
       <td>Chub</td>
       <td></td>
     </tr>
     <tr>
-      <td>Holland Elgin</td>
+      <td>Elgin</td>
+      <td>Holland</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
-      <td>Esther Berenice Elliott</td>
+      <td>Elliott</td>
+      <td>Esther</td>
+      <td>Berenice</td>
       <td>1929</td>
       <td></td>
       <td>Shortie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Wincel Gerking</td>
+      <td>Gerking</td>
+      <td>Wincel</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Wince</td>
       <td></td>
     </tr>
     <tr>
-      <td>Kenneth Hardman</td>
+      <td>Hardman</td>
+      <td>Kenneth</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>It's noted that he withdrew before graduation.</td>
     </tr>
     <tr>
-      <td>Edward Henry</td>
+      <td>Henry</td>
+      <td>Edward</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Ed</td>
       <td></td>
     </tr>
     <tr>
-      <td>Robert Holaday</td>
+      <td>Holaday</td>
+      <td>Robert</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Bob</td>
       <td></td>
     </tr>
     <tr>
-      <td>Gwendolyn Edith Isom</td>
+      <td>Isom</td>
+      <td>Gwendolyn</td>
+      <td>Edith</td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Shelton Kaiser</td>
+      <td>Kaiser</td>
+      <td>Shelton</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Skeleton</td>
       <td></td>
     </tr>
     <tr>
-      <td>Stella Krutsinger</td>
+      <td>Krutsinger</td>
+      <td>Stella</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Cutz</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret Laughlin</td>
+      <td>Laughlin</td>
+      <td>Margaret</td>
+      <td></td>
       <td>1929</td>
       <td>Secretary</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td>Mina Logan</td>
+      <td>Logan</td>
+      <td>Mina</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Piny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Geneva Lynn</td>
+      <td>Lynn</td>
+      <td>Geneva</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Jenny</td>
       <td></td>
     </tr>
     <tr>
-      <td>Evalou Mann</td>
+      <td>Mann</td>
+      <td>Evalou</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Bo</td>
       <td></td>
     </tr>
     <tr>
-      <td>Margaret McIntire</td>
+      <td>McIntire</td>
+      <td>Margaret</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Mart</td>
       <td></td>
     </tr>
     <tr>
-      <td>Robert Franklin McNeely</td>
+      <td>McNeely</td>
+      <td>Robert</td>
+      <td>Franklin</td>
       <td>1929</td>
       <td></td>
       <td>Irish</td>
       <td></td>
     </tr>
     <tr>
-      <td>Durward Miller</td>
+      <td>Miller</td>
+      <td>Durward</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Derby</td>
       <td></td>
     </tr>
     <tr>
-      <td>Myrtle Alberta Naugle</td>
+      <td>Naugle</td>
+      <td>Myrtle</td>
+      <td>Alberta</td>
       <td>1929</td>
       <td></td>
       <td>Myrtie Bertie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Marvin Charles Pierce</td>
+      <td>Pierce</td>
+      <td>Marvin</td>
+      <td>Charles</td>
       <td>1929</td>
       <td></td>
       <td>Beanie</td>
       <td></td>
     </tr>
     <tr>
-      <td>Rocker Quigley</td>
+      <td>Quigley</td>
+      <td>Rocker</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Hoss</td>
       <td></td>
     </tr>
     <tr>
-      <td>Neva C. Reed</td>
+      <td>Reed</td>
+      <td>Neva</td>
+      <td>C.</td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>Died April 15, 1927 (Listed in memoriam)</td>
     </tr>
     <tr>
-      <td>Catherine Genevieve Robertson</td>
+      <td>Robertson</td>
+      <td>Catherine</td>
+      <td>Genevieve</td>
       <td>1929</td>
       <td></td>
       <td>Cat</td>
       <td></td>
     </tr>
     <tr>
-      <td>Henry Kenneth Root</td>
+      <td>Root</td>
+      <td>Henry</td>
+      <td>Kenneth</td>
       <td>1929</td>
       <td></td>
       <td>Peck</td>
       <td></td>
     </tr>
     <tr>
-      <td>Roberta Vivian Sanders</td>
+      <td>Sanders</td>
+      <td>Roberta</td>
+      <td>Vivian</td>
       <td>1929</td>
       <td></td>
       <td>Bert</td>
       <td></td>
     </tr>
     <tr>
-      <td>Cleotis Shields</td>
+      <td>Shields</td>
+      <td>Cleotis</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>It's noted that his graduation wasn't known in time to get a picture.</td>
     </tr>
     <tr>
-      <td>Marion Sibert</td>
+      <td>Sibert</td>
+      <td>Marion</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
       <td>It's noted that he withdrew before graduation.</td>
     </tr>
     <tr>
-      <td>Lucille Opal Suddarth</td>
+      <td>Suddarth</td>
+      <td>Lucille</td>
+      <td>Opal</td>
       <td>1929</td>
       <td></td>
       <td>Ceil</td>
       <td></td>
     </tr>
     <tr>
-      <td>Edward Taylor</td>
+      <td>Taylor</td>
+      <td>Edward</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Ed</td>
       <td></td>
     </tr>
     <tr>
-      <td>Elwood Riley Todd</td>
+      <td>Todd</td>
+      <td>Elwood</td>
+      <td>Riley</td>
       <td>1929</td>
       <td>President</td>
       <td>Elza</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lois Walker</td>
+      <td>Walker</td>
+      <td>Lois</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td>Mac</td>
       <td></td>
     </tr>
     <tr>
-      <td>Scott Wycoff, Jr.</td>
+      <td>Wycoff, Jr.</td>
+      <td>Scott</td>
+      <td></td>
       <td>1929</td>
       <td></td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fox</td>
+      <td>Lucille</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td></td>
+      <td>Died November 25, 1929 (Listed in memoriam)</td>
+    </tr>
+    <tr>
+      <td>Alexander</td>
+      <td>Mary</td>
+      <td>Frances</td>
+      <td>1930</td>
+      <td></td>
+      <td>Mary Lee</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Allegre</td>
+      <td>Lois</td>
+      <td>Evelyn</td>
+      <td>1930</td>
+      <td>Treasurer</td>
+      <td>Loey</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Barnett</td>
+      <td>Lester</td>
+      <td>Glenn</td>
+      <td>1930</td>
+      <td></td>
+      <td>Barney</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beasley</td>
+      <td>Walter</td>
+      <td>Richard</td>
+      <td>1930</td>
+      <td></td>
+      <td>Unk</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brewer</td>
+      <td>Earl</td>
+      <td>A.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Andy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brewster</td>
+      <td>Alvin</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Aberdeen</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burton</td>
+      <td>Doris</td>
+      <td>Elizabeth</td>
+      <td>1930</td>
+      <td></td>
+      <td>Bobby</td>
+      <td>Likely the same Doris Burton that is listed as failing to graduate in 1929.</td>
+    </tr>
+    <tr>
+      <td>Burton</td>
+      <td>Ruby</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Anne Jane</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Carpenter</td>
+      <td>Martha</td>
+      <td>Ruth</td>
+      <td>1930</td>
+      <td></td>
+      <td>Mart</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chastain</td>
+      <td>J.</td>
+      <td>Arthur</td>
+      <td>1930</td>
+      <td></td>
+      <td>Art</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chastain</td>
+      <td>Menlo</td>
+      <td>A.</td>
+      <td>1930</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cole</td>
+      <td>Gayle</td>
+      <td>Imogene</td>
+      <td>1930</td>
+      <td></td>
+      <td>Margie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Colker</td>
+      <td>Robert</td>
+      <td>F.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Bob</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Collier</td>
+      <td>Catherine</td>
+      <td>E.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Caddy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Collier</td>
+      <td>Grace</td>
+      <td>Louise</td>
+      <td>1930</td>
+      <td></td>
+      <td>Collie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cooper</td>
+      <td>Irene</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Innie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Dalton</td>
+      <td>Marie</td>
+      <td>Agnes</td>
+      <td>1930</td>
+      <td></td>
+      <td>Riar</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Davis</td>
+      <td>Lowell</td>
+      <td>W.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Day</td>
+      <td>Doel</td>
+      <td>Franklin</td>
+      <td>1930</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Eckensberger</td>
+      <td>Willard</td>
+      <td>Xander</td>
+      <td>1930</td>
+      <td></td>
+      <td>Bully</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edwards</td>
+      <td>Lillian</td>
+      <td>Maxine</td>
+      <td>1930</td>
+      <td></td>
+      <td>Mac</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fletcher</td>
+      <td>Hurley</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Crip</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gainey</td>
+      <td>Jeanette</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Jenny</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gibbons</td>
+      <td>Helen</td>
+      <td>Marie</td>
+      <td>1930</td>
+      <td></td>
+      <td>Jackie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hardman</td>
+      <td>Fred</td>
+      <td>Louis</td>
+      <td>1930</td>
+      <td>President</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hardman</td>
+      <td>Kenneth</td>
+      <td>Charles</td>
+      <td>1930</td>
+      <td></td>
+      <td>Kenny</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Isom</td>
+      <td>Geneva</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Gbie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Johnson</td>
+      <td>Georgia</td>
+      <td>Merline</td>
+      <td>1930</td>
+      <td></td>
+      <td>Dawshie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kinder</td>
+      <td>Lawrence</td>
+      <td>J.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Curly</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>King</td>
+      <td>Ruth</td>
+      <td>B.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Snookums</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lagle</td>
+      <td>Marie</td>
+      <td>Elizabeth</td>
+      <td>1930</td>
+      <td></td>
+      <td>Riar</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lee</td>
+      <td>Evelyn</td>
+      <td>Louise</td>
+      <td>1930</td>
+      <td></td>
+      <td>Weesie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lee</td>
+      <td>Homer</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Demie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lewis</td>
+      <td>Lowell</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Bogus</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mayden</td>
+      <td>Millison</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Milly</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>McCullough</td>
+      <td>Francis</td>
+      <td>M.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Misprint</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>McIntire</td>
+      <td>Earl</td>
+      <td>H.</td>
+      <td>1930</td>
+      <td>Vice President</td>
+      <td>Mack</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>McNeely</td>
+      <td>Wilma</td>
+      <td>Mae</td>
+      <td>1930</td>
+      <td></td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>O'Donnell</td>
+      <td>Russell</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Russ</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Porter</td>
+      <td>Mildred</td>
+      <td>Avis</td>
+      <td>1930</td>
+      <td></td>
+      <td>Mid</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Purkhiser</td>
+      <td>Hugh</td>
+      <td>W.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Purk</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Reynolds</td>
+      <td>Grace</td>
+      <td>Ruth</td>
+      <td>1930</td>
+      <td></td>
+      <td>Gracie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Riggs</td>
+      <td>Catherine</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Catty</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rodeffer</td>
+      <td>Dorothy</td>
+      <td>M.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Dot</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rose</td>
+      <td>Hazel</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Cricket</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sanders</td>
+      <td>Katherine</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Babe</td>
+      <td>It's noted that she was neither absent nor tardy during 12 years of school.</td>
+    </tr>
+    <tr>
+      <td>Slaughter</td>
+      <td>Martha</td>
+      <td>Evalou</td>
+      <td>1930</td>
+      <td></td>
+      <td>Ebbie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Edward</td>
+      <td>Avon</td>
+      <td>1930</td>
+      <td></td>
+      <td>Abe</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stroud</td>
+      <td>Dorothy</td>
+      <td>Alice</td>
+      <td>1930</td>
+      <td>Secretary</td>
+      <td>Dot</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Squier</td>
+      <td>Velpo</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Vep</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tilford</td>
+      <td>Pearl</td>
+      <td>F.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Peggy</td>
+      <td>African American</td>
+    </tr>
+    <tr>
+      <td>Weidner</td>
+      <td>Billy</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Williams</td>
+      <td>Mary</td>
+      <td>Lois</td>
+      <td>1930</td>
+      <td></td>
+      <td>Hoke</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>Howard</td>
+      <td>T.</td>
+      <td>1930</td>
+      <td></td>
+      <td>Gus</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>Lois</td>
+      <td></td>
+      <td>1930</td>
+      <td></td>
+      <td>Sue</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 </div>
 
-<!-- DataTables Initialization Script -->
 <script>
   $(document).ready(function() {
     $('#alumniTable').DataTable({
       "pageLength": 25,
-      "order": [[1, "asc"]]
+      "order": [[3, "asc"]]
     });
   });
 </script>
+
+</body>
+</html>
