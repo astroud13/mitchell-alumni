@@ -4,9 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Mitchell High School Alumni Directory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -29,14 +32,21 @@
       background-color: #003366;
       color: white;
     }
+    @media screen and (max-width: 768px) {
+      table.dataTable {
+        width: 100% !important;
+        display: block;
+        overflow-x: auto;
+      }
+    }
   </style>
 </head>
 <body>
 
-<h1>Directory of Mitchell High School Alumni<br><small>Mitchell, Indiana – Classes of 1923–1932 & 1936–1939</small></h1>
+<h1>Directory of Mitchell High School Alumni<br><small>Mitchell, Indiana – Classes of 1923–1932, 1936–1940</small></h1>
 
 <div style="overflow-x:auto">
-<table border="1" class="dataframe display" id="alumniTable">
+<table border="1" class="dataframe display nowrap" id="alumniTable">
   <thead>
     <tr style="text-align: right;">
       <th>Last Name</th>
@@ -195,20 +205,20 @@
     </tr>
     <tr>
       <td>Pruett</td>
-      <td>Sylvia</td>
-      <td></td>
-      <td>1923</td>
-      <td></td>
-      <td>Smiles</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Pruett</td>
       <td>Dottie</td>
       <td></td>
       <td>1923</td>
       <td></td>
       <td>Dot</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pruett</td>
+      <td>Sylvia</td>
+      <td></td>
+      <td>1923</td>
+      <td></td>
+      <td>Smiles</td>
       <td></td>
     </tr>
     <tr>
@@ -654,20 +664,20 @@
     </tr>
     <tr>
       <td>Edwards</td>
-      <td>Wayne</td>
-      <td></td>
-      <td>1925</td>
-      <td></td>
-      <td>Doc</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Edwards</td>
       <td>Gladys</td>
       <td></td>
       <td>1925</td>
       <td></td>
       <td>Pug</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edwards</td>
+      <td>Wayne</td>
+      <td></td>
+      <td>1925</td>
+      <td></td>
+      <td>Doc</td>
       <td></td>
     </tr>
     <tr>
@@ -861,20 +871,20 @@
     </tr>
     <tr>
       <td>Beasley</td>
-      <td>Lewis</td>
-      <td>H.</td>
-      <td>1926</td>
-      <td></td>
-      <td>Capo</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Beasley</td>
       <td>Augustus</td>
       <td></td>
       <td>1926</td>
       <td></td>
       <td>Gus</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beasley</td>
+      <td>Lewis</td>
+      <td>H.</td>
+      <td>1926</td>
+      <td></td>
+      <td>Capo</td>
       <td></td>
     </tr>
     <tr>
@@ -1023,20 +1033,20 @@
     </tr>
     <tr>
       <td>Lewis</td>
-      <td>Evangeline</td>
-      <td></td>
-      <td>1926</td>
-      <td></td>
-      <td>Von</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Lewis</td>
       <td>Burton</td>
       <td></td>
       <td>1926</td>
       <td></td>
       <td>Cy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lewis</td>
+      <td>Evangeline</td>
+      <td></td>
+      <td>1926</td>
+      <td></td>
+      <td>Von</td>
       <td></td>
     </tr>
     <tr>
@@ -1086,20 +1096,20 @@
     </tr>
     <tr>
       <td>Rodarmel</td>
-      <td>Helen</td>
-      <td></td>
-      <td>1926</td>
-      <td></td>
-      <td>Kutz</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Rodarmel</td>
       <td>Alice</td>
       <td>F.</td>
       <td>1926</td>
       <td></td>
       <td>Crip</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rodarmel</td>
+      <td>Helen</td>
+      <td></td>
+      <td>1926</td>
+      <td></td>
+      <td>Kutz</td>
       <td></td>
     </tr>
     <tr>
@@ -1131,20 +1141,20 @@
     </tr>
     <tr>
       <td>Smith</td>
-      <td>Stanley</td>
-      <td>E.</td>
-      <td>1926</td>
-      <td></td>
-      <td>Dutch</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Smith</td>
       <td>Burl</td>
       <td>A.</td>
       <td>1926</td>
       <td></td>
       <td>Smythie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Stanley</td>
+      <td>E.</td>
+      <td>1926</td>
+      <td></td>
+      <td>Dutch</td>
       <td></td>
     </tr>
     <tr>
@@ -1185,20 +1195,20 @@
     </tr>
     <tr>
       <td>Willard</td>
-      <td>Kathryn</td>
-      <td></td>
-      <td>1926</td>
-      <td></td>
-      <td>Katty</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Willard</td>
       <td>Helen</td>
       <td></td>
       <td>1926</td>
       <td></td>
       <td>Short</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Willard</td>
+      <td>Kathryn</td>
+      <td></td>
+      <td>1926</td>
+      <td></td>
+      <td>Katty</td>
       <td></td>
     </tr>
     <tr>
@@ -1239,20 +1249,20 @@
     </tr>
     <tr>
       <td>Chastain</td>
-      <td>Elbert</td>
-      <td></td>
-      <td>1927</td>
-      <td></td>
-      <td>Ebb</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Chastain</td>
       <td>Austin</td>
       <td></td>
       <td>1927</td>
       <td></td>
       <td>Twisty</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chastain</td>
+      <td>Elbert</td>
+      <td></td>
+      <td>1927</td>
+      <td></td>
+      <td>Ebb</td>
       <td></td>
     </tr>
     <tr>
@@ -1356,20 +1366,20 @@
     </tr>
     <tr>
       <td>Neidiffer</td>
-      <td>Lavon</td>
-      <td></td>
-      <td>1927</td>
-      <td></td>
-      <td>Abie</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Neidiffer</td>
       <td>Doyle</td>
       <td></td>
       <td>1927</td>
       <td></td>
       <td>Puffy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Neidiffer</td>
+      <td>Lavon</td>
+      <td></td>
+      <td>1927</td>
+      <td></td>
+      <td>Abie</td>
       <td></td>
     </tr>
     <tr>
@@ -1761,20 +1771,20 @@
     </tr>
     <tr>
       <td>Smith</td>
-      <td>Vellma</td>
-      <td></td>
-      <td>1928</td>
-      <td></td>
-      <td>Tobe</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Smith</td>
       <td>Oscar</td>
       <td></td>
       <td>1928</td>
       <td></td>
       <td>Ock</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Vellma</td>
+      <td></td>
+      <td>1928</td>
+      <td></td>
+      <td>Tobe</td>
       <td></td>
     </tr>
     <tr>
@@ -3057,20 +3067,20 @@
     </tr>
     <tr>
       <td>White</td>
-      <td>John</td>
-      <td>Howard</td>
-      <td>1931</td>
-      <td></td>
-      <td>Johnny</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>White</td>
       <td>Ella</td>
       <td>Rowena</td>
       <td>1931</td>
       <td></td>
       <td>Boots</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>White</td>
+      <td>John</td>
+      <td>Howard</td>
+      <td>1931</td>
+      <td></td>
+      <td>Johnny</td>
       <td></td>
     </tr>
     <tr>
@@ -3885,15 +3895,6 @@
     </tr>
     <tr>
       <td>Smith</td>
-      <td>Harold</td>
-      <td></td>
-      <td>1936</td>
-      <td>Treasurer</td>
-      <td>Smitty</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Smith</td>
       <td>Donald</td>
       <td></td>
       <td>1936</td>
@@ -3908,6 +3909,15 @@
       <td>1936</td>
       <td></td>
       <td>Steel Springs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Harold</td>
+      <td></td>
+      <td>1936</td>
+      <td>Treasurer</td>
+      <td>Smitty</td>
       <td></td>
     </tr>
     <tr>
@@ -4182,20 +4192,20 @@
     </tr>
     <tr>
       <td>Haverly</td>
-      <td>Mary</td>
-      <td></td>
-      <td>1937</td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Haverly</td>
       <td>Lawrence</td>
       <td></td>
       <td>1937</td>
       <td></td>
       <td>Pete</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Haverly</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1937</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -4227,20 +4237,20 @@
     </tr>
     <tr>
       <td>Isom</td>
-      <td>Pauline</td>
-      <td></td>
-      <td>1937</td>
-      <td></td>
-      <td>Pean</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Isom</td>
       <td>Escoe</td>
       <td></td>
       <td>1937</td>
       <td></td>
       <td>Pete</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Isom</td>
+      <td>Pauline</td>
+      <td></td>
+      <td>1937</td>
+      <td></td>
+      <td>Pean</td>
       <td></td>
     </tr>
     <tr>
@@ -4614,20 +4624,20 @@
     </tr>
     <tr>
       <td>Beasley</td>
-      <td>Walter</td>
-      <td></td>
-      <td>1938</td>
-      <td>President</td>
-      <td>Beasley</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Beasley</td>
       <td>Ruth</td>
       <td></td>
       <td>1938</td>
       <td></td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beasley</td>
+      <td>Walter</td>
+      <td></td>
+      <td>1938</td>
+      <td>President</td>
+      <td>Beasley</td>
       <td></td>
     </tr>
     <tr>
@@ -4812,20 +4822,20 @@
     </tr>
     <tr>
       <td>Heine</td>
-      <td>Rita</td>
-      <td></td>
-      <td>1938</td>
-      <td>Secretary</td>
-      <td>Sleepy</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Heine</td>
       <td>Dorothy</td>
       <td></td>
       <td>1938</td>
       <td>Treasurer</td>
       <td>Hi-nee</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Heine</td>
+      <td>Rita</td>
+      <td></td>
+      <td>1938</td>
+      <td>Secretary</td>
+      <td>Sleepy</td>
       <td></td>
     </tr>
     <tr>
@@ -5109,15 +5119,6 @@
     </tr>
     <tr>
       <td>Burton</td>
-      <td>Wallace</td>
-      <td></td>
-      <td>1939</td>
-      <td>President</td>
-      <td>Wally</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Burton</td>
       <td>Mary</td>
       <td>K.</td>
       <td>1939</td>
@@ -5127,20 +5128,29 @@
     </tr>
     <tr>
       <td>Burton</td>
-      <td>Wilbur</td>
-      <td></td>
-      <td>1939</td>
-      <td></td>
-      <td>Wib</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Burton</td>
       <td>Thelma</td>
       <td>B.</td>
       <td>1939</td>
       <td></td>
       <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burton</td>
+      <td>Wallace</td>
+      <td></td>
+      <td>1939</td>
+      <td>President</td>
+      <td>Wally</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burton</td>
+      <td>Wilbur</td>
+      <td></td>
+      <td>1939</td>
+      <td></td>
+      <td>Wib</td>
       <td></td>
     </tr>
     <tr>
@@ -5352,20 +5362,20 @@
     </tr>
     <tr>
       <td>Jolliff</td>
-      <td>Mary</td>
-      <td>K.</td>
-      <td>1939</td>
-      <td></td>
-      <td>Jolly</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Jolliff</td>
       <td>James</td>
       <td></td>
       <td>1939</td>
       <td></td>
       <td>Jimmie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jolliff</td>
+      <td>Mary</td>
+      <td>K.</td>
+      <td>1939</td>
+      <td></td>
+      <td>Jolly</td>
       <td></td>
     </tr>
     <tr>
@@ -5532,20 +5542,20 @@
     </tr>
     <tr>
       <td>Smith</td>
-      <td>Mary</td>
-      <td>L.</td>
-      <td>1939</td>
-      <td></td>
-      <td>Lu Lu</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Smith</td>
       <td>Levere</td>
       <td></td>
       <td>1939</td>
       <td></td>
       <td>Romeo</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Mary</td>
+      <td>L.</td>
+      <td>1939</td>
+      <td></td>
+      <td>Lu Lu</td>
       <td></td>
     </tr>
     <tr>
@@ -5629,6 +5639,618 @@
       <td>Pood</td>
       <td></td>
     </tr>
+    <tr>
+      <td>Adams</td>
+      <td>Donald</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Don</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Barnett</td>
+      <td>Cleo</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Jiggs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Barnett</td>
+      <td>Martha</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Corinne</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bass</td>
+      <td>Wayne</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Cy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Batchelor</td>
+      <td>Ethel</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Ette</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Beeman</td>
+      <td>Albert</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Ab</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bonds</td>
+      <td>Helen</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Bondsie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bowden</td>
+      <td>Lester</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Tim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Box</td>
+      <td>Chester</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Boxie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brim</td>
+      <td>Maxine</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Mac</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Brooks</td>
+      <td>Carmina</td>
+      <td></td>
+      <td>1940</td>
+      <td>Secretary</td>
+      <td>Brooksie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burton</td>
+      <td>Ruth</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Ruthie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chastain</td>
+      <td>Gretna</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Short</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Chastain</td>
+      <td>Raymond</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Windy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Clouse</td>
+      <td>Lowell</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Toby</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Colglazier</td>
+      <td>Norman</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Norman</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Colglazier</td>
+      <td>Uzahne</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Zanie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Colglazier</td>
+      <td>Wilma</td>
+      <td></td>
+      <td>1940</td>
+      <td>Treasurer</td>
+      <td>Wilma</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Conkey</td>
+      <td>Duane</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>D.A.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Connell</td>
+      <td>Marie</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Connell</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cooper</td>
+      <td>Edward</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Ed</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cooper</td>
+      <td>Kathryn</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Shorty</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cox</td>
+      <td>Velma</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Velmp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edwards</td>
+      <td>Bernard</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Beeler</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edwards</td>
+      <td>Virginia</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Jinny</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Elmore</td>
+      <td>Jewell</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Tootie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Erwin</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Mary</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Frazier</td>
+      <td>Sue</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Susy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gabbert</td>
+      <td>Marianne</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Mimi</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Haverly</td>
+      <td>Beulah</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Puddin</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Haverly</td>
+      <td>Lee</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Ed</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hixon</td>
+      <td>Eleanor</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Nora</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jolley</td>
+      <td>Lucille</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Lucy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jones</td>
+      <td>Bill</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Biff</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kelley</td>
+      <td>Edith</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Kelley</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kirk</td>
+      <td>James</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Jim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kirsch</td>
+      <td>William</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Knight</td>
+      <td>Katherine</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Kate</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Magner</td>
+      <td>Evelyn</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Eveie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mann</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Freckles</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mathews</td>
+      <td>Margaret</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Peggy</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mayden</td>
+      <td>Betty</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Betts</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Megnin</td>
+      <td>Gerald</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Jerry</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Moffitt</td>
+      <td>Glen</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Glen</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Moore</td>
+      <td>Richard</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Dick</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Novak</td>
+      <td>Margaret</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Marg</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Patrick</td>
+      <td>Phyllis</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Phid</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Rager</td>
+      <td>Robert</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Bob</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Redding</td>
+      <td>John</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>John</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Reynolds</td>
+      <td>Mildred</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Mid</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sanders</td>
+      <td>William</td>
+      <td></td>
+      <td>1940</td>
+      <td>President</td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sargent</td>
+      <td>Louise</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Weasel</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Scott</td>
+      <td>Ann</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Scottie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sherwood</td>
+      <td>Hollace</td>
+      <td></td>
+      <td>1940</td>
+      <td>Vice President</td>
+      <td>Danny</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sherwood</td>
+      <td>John</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Bert</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slaughter</td>
+      <td>Lawrence</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Larry</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sloan</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Sloanie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Smith</td>
+      <td>Russell</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Rus</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sylvester</td>
+      <td>Martha</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Red</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tegarden</td>
+      <td>James</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Teke</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tyree</td>
+      <td>Horace</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Horse</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vance</td>
+      <td>Helen</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Vancie</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Walther</td>
+      <td>Mariam</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Wilbur</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>White</td>
+      <td>Priscilla</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Chid</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wilkerson</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Mary</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Williams</td>
+      <td>Ivan</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Bill</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Williams</td>
+      <td>Mary</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Sally</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Wood</td>
+      <td>Jesse</td>
+      <td></td>
+      <td>1940</td>
+      <td></td>
+      <td>Jack</td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -5637,7 +6259,8 @@
   $(document).ready(function() {
     $('#alumniTable').DataTable({
       "pageLength": 25,
-      "order": [[3, "asc"]]
+      "order": [[3, "asc"]],
+      responsive: true
     });
   });
 </script>
